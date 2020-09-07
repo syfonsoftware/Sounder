@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "sourceMap": true,
+        "outDir": "../build",
+        "rootDir": "../",
+        "noEmitOnError": true,
+        "target": "esnext",
+        "typeRoots": [
+            "node_modules/@types",
+            "../global.d.ts"
+        ]
+    }
+}
